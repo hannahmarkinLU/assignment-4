@@ -1,0 +1,46 @@
+.footer {
+  background-color: #111827;
+  color: #e5e7eb;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* pushes left/right columns apart */
+  align-items: center;            /* vertically align content */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-store-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #f59e0b;
+}

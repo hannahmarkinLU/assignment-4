@@ -1,0 +1,38 @@
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;  /* responsive padding */
+  background: #111827;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7fa7ff;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.75;
+}
