@@ -25,9 +25,9 @@
 
 .product-grid {
   display: flex;
-  flex-wrap: wrap;  /* allows multiple rows */
-  justify-content: center;  /* center cards horizontally */
-  gap: 20px;  /* space between cards */
+  flex-wrap: wrap; /* allows multiple rows */
+  justify-content: center; /* center cards horizontally */
+  gap: 20px; /* space between cards */
   margin-top: 40px;
   max-width: 1200px;
 }

@@ -7,14 +7,11 @@ function CartItem({ item, onRemove }) {
       <div className="cart-item-info">
         <p className="cart-item-name">{item.name}</p>
         <p className="cart-item-price">
-            ${item.price.toFixed(2)} × {item.quantity}
+          ${item.price.toFixed(2)} × {item.quantity}
         </p>
       </div>
 
-      <button
-        className="remove-btn"
-        onClick={() => onRemove(item.id)}
-      >
+      <button className="remove-btn" onClick={() => onRemove(item.id)}>
         Remove
       </button>
     </div>

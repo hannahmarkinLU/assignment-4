@@ -11,7 +11,7 @@
 .footer-container {
   display: flex;
   justify-content: space-between; /* pushes left/right columns apart */
-  align-items: center;            /* vertically align content */
+  align-items: center; /* vertically align content */
   max-width: 1200px;
   margin: 0 auto;
 }
